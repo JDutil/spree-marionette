@@ -1,4 +1,4 @@
-SpreeStore.module('Checkout',function(Checkout, SpreeStore, Backbone,Marionette,$,_){
+SpreeStore.module('Checkout',function(Checkout, SpreeStore, Backbone, Marionette, $, _){
   Checkout.paymentView = Backbone.Marionette.ItemView.extend({
     template: '#order-payment-template',
 
